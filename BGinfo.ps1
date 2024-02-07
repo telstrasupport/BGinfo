@@ -110,7 +110,7 @@ Write-Host ($writeEmptyLine + "# BgInfo regkey added" + $writeSeperator + $time)
  
 ## Run BgInfo
  
-C:\BgInfo\Bginfo64.exe C:\BgInfo\logon.bgi /timer:0 /nolicprompt
+C:\BgInfo\Bginfo64.exe C:\BgInfo\logonbgi\logon.bgi /timer:0 /nolicprompt
 Write-Host ($writeEmptyLine + "# BgInfo has ran for the first time" + $writeSeperator + $time)`
 -foregroundcolor $foregroundColor1 $writeEmptyLine
  
